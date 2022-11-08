@@ -27,7 +27,7 @@ def data():
     train_matrix = []
     test_matrix = []
 
-    root_dir = "D:\\Python\\PCA\\dataset"
+    root_dir = "./dataset"
     train_dir = "train_set"
     test_dir = "test_set"
     train_dataset = MyData(root_dir, train_dir)
